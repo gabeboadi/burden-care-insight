@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, Activity } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -9,6 +9,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import logo from "@/assets/logo.jpeg";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -25,10 +26,10 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 border-b bg-card/80 backdrop-blur-md no-print">
       <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center gap-2">
-          <Activity className="h-6 w-6 text-coral" />
+        <Link to="/" className="flex items-center gap-2.5">
+          <img src={logo} alt="Burden Care Insight logo" className="h-8 w-8 rounded-md object-contain" />
           <span className="text-lg font-bold tracking-tight text-foreground">
-            The Invisible Burden Tracker
+            Burden Care Insight
           </span>
         </Link>
 
@@ -59,8 +60,8 @@ export default function Navbar() {
           </SheetTrigger>
           <SheetContent side="right" className="w-64">
             <SheetHeader>
-              <SheetTitle className="flex items-center gap-2">
-                <Activity className="h-5 w-5 text-coral" />
+            <SheetTitle className="flex items-center gap-2">
+                <img src={logo} alt="Burden Care Insight logo" className="h-6 w-6 rounded-md object-contain" />
                 Navigation
               </SheetTitle>
             </SheetHeader>
