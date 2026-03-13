@@ -1,0 +1,208 @@
+{
+  "total_caregivers_monitored": 2847,
+  "monitoring_period": "2024-2025",
+  "summary_stats": {
+    "avg_health_score": 58.3,
+    "median_health_score": 61.0,
+    "at_risk_count": 968,
+    "at_risk_percentage": 34.0,
+    "critical_count": 142,
+    "critical_percentage": 5.0,
+    "avg_stress_score": 0.47,
+    "avg_weekly_stress_episodes": 5.2
+  },
+  "estimated_impact": {
+    "annual_healthcare_savings_per_caregiver": 7500,
+    "total_monitored_savings": "$21.4M",
+    "projected_national_savings_10pct_adoption": "$4.0B",
+    "avg_intervention_response_time_days": 3.2,
+    "pct_improved_after_intervention": 67,
+    "avg_score_improvement_with_intervention": 18.5
+  },
+  "regional_breakdown": [
+    {
+      "region": "Pacific Northwest",
+      "state": "WA/OR",
+      "count": 312,
+      "avg_score": 61.2,
+      "at_risk_pct": 28.5,
+      "lat": 47.6,
+      "lng": -122.3
+    },
+    {
+      "region": "California",
+      "state": "CA",
+      "count": 485,
+      "avg_score": 55.8,
+      "at_risk_pct": 38.1,
+      "lat": 36.7,
+      "lng": -119.4
+    },
+    {
+      "region": "Southwest",
+      "state": "AZ/NM",
+      "count": 198,
+      "avg_score": 53.4,
+      "at_risk_pct": 41.2,
+      "lat": 33.4,
+      "lng": -112.0
+    },
+    {
+      "region": "Mountain West",
+      "state": "CO/UT",
+      "count": 167,
+      "avg_score": 62.5,
+      "at_risk_pct": 26.3,
+      "lat": 39.7,
+      "lng": -104.9
+    },
+    {
+      "region": "Midwest",
+      "state": "IL/WI/MN",
+      "count": 423,
+      "avg_score": 59.1,
+      "at_risk_pct": 33.8,
+      "lat": 41.8,
+      "lng": -87.6
+    },
+    {
+      "region": "Southeast",
+      "state": "GA/FL/NC",
+      "count": 512,
+      "avg_score": 54.2,
+      "at_risk_pct": 39.5,
+      "lat": 33.7,
+      "lng": -84.3
+    },
+    {
+      "region": "Northeast",
+      "state": "NY/NJ/MA",
+      "count": 398,
+      "avg_score": 57.9,
+      "at_risk_pct": 35.2,
+      "lat": 40.7,
+      "lng": -74.0
+    },
+    {
+      "region": "Texas",
+      "state": "TX",
+      "count": 352,
+      "avg_score": 56.1,
+      "at_risk_pct": 36.8,
+      "lat": 31.9,
+      "lng": -99.9
+    }
+  ],
+  "demographic_breakdown": [
+    {
+      "group": "Female, 35-50",
+      "count": 892,
+      "avg_score": 54.2,
+      "at_risk_pct": 39.8
+    },
+    {
+      "group": "Female, 50-65",
+      "count": 634,
+      "avg_score": 56.8,
+      "at_risk_pct": 35.2
+    },
+    {
+      "group": "Male, 35-50",
+      "count": 312,
+      "avg_score": 61.3,
+      "at_risk_pct": 28.5
+    },
+    {
+      "group": "Male, 50-65",
+      "count": 445,
+      "avg_score": 58.9,
+      "at_risk_pct": 32.1
+    },
+    {
+      "group": "Female, 65+",
+      "count": 298,
+      "avg_score": 51.2,
+      "at_risk_pct": 44.6
+    },
+    {
+      "group": "Male, 65+",
+      "count": 266,
+      "avg_score": 52.8,
+      "at_risk_pct": 42.1
+    }
+  ],
+  "caregiving_type_breakdown": [
+    {
+      "type": "Elderly parent (dementia/Alzheimer's)",
+      "count": 854,
+      "avg_score": 52.1
+    },
+    {
+      "type": "Elderly parent (physical decline)",
+      "count": 612,
+      "avg_score": 58.3
+    },
+    {
+      "type": "Spouse (chronic illness)",
+      "count": 498,
+      "avg_score": 55.7
+    },
+    {
+      "type": "Child (disability)",
+      "count": 387,
+      "avg_score": 54.8
+    },
+    {
+      "type": "Spouse (recovery/rehab)",
+      "count": 312,
+      "avg_score": 62.4
+    },
+    {
+      "type": "Other family member",
+      "count": 184,
+      "avg_score": 60.9
+    }
+  ],
+  "intervention_effectiveness": {
+    "description": "Projected outcomes if intervention reaches X% of at-risk caregivers",
+    "scenarios": [
+      {
+        "intervention_reach_pct": 10,
+        "caregivers_helped": 97,
+        "avg_improvement": 15.2,
+        "savings": "$727K"
+      },
+      {
+        "intervention_reach_pct": 25,
+        "caregivers_helped": 242,
+        "avg_improvement": 15.2,
+        "savings": "$1.8M"
+      },
+      {
+        "intervention_reach_pct": 50,
+        "caregivers_helped": 484,
+        "avg_improvement": 15.2,
+        "savings": "$3.6M"
+      },
+      {
+        "intervention_reach_pct": 75,
+        "caregivers_helped": 726,
+        "avg_improvement": 15.2,
+        "savings": "$5.4M"
+      },
+      {
+        "intervention_reach_pct": 100,
+        "caregivers_helped": 968,
+        "avg_improvement": 15.2,
+        "savings": "$7.3M"
+      }
+    ]
+  },
+  "national_context": {
+    "total_unpaid_caregivers_us": 53000000,
+    "annual_economic_value": "$600B",
+    "pct_experiencing_burnout": 40,
+    "avg_healthcare_cost_increase": "$7,500/year",
+    "source": "AARP/NAC Caregiving in the U.S. 2020; Chari et al., Health Affairs 2015"
+  }
+}

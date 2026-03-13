@@ -1,0 +1,166 @@
+[
+  {
+    "caregiver_id": "maria_santos",
+    "week": 4,
+    "severity": "info",
+    "health_score": 72.0,
+    "briefing": "Maria, your heart rate has averaged 76 bpm this week, slightly up from 73 bpm last month. Your sleep quality remains good at 7.2 hours. While your stress indicators are within normal range, we've noticed your evening stress episodes increasing slightly. This is common for caregivers managing sundowning behaviors.",
+    "micro_interventions": [
+      "Try a 5-minute breathing exercise before your mother's evening routine",
+      "Consider meal-prepping on Sundays to reduce weeknight decision fatigue",
+      "Your morning walks are helping - keep them up!"
+    ]
+  },
+  {
+    "caregiver_id": "maria_santos",
+    "week": 8,
+    "severity": "warning",
+    "health_score": 48.0,
+    "briefing": "Maria, we want to flag some important trends. Your heart rate variability (HRV) has decreased 22% over the past month, dropping from 38ms to 29ms. This sustained decrease often correlates with accumulated fatigue. Your stress episodes have increased from 3 to 7 per week, and sleep quality has dropped to 5.8 hours.",
+    "micro_interventions": [
+      "Priority: Schedule respite care for at least 4 hours this week",
+      "Try the 4-7-8 breathing technique before bed",
+      "Connect with the Alzheimer's Association caregiver support line: 800-272-3900",
+      "Even a 15-minute walk can reset your cortisol levels"
+    ]
+  },
+  {
+    "caregiver_id": "maria_santos",
+    "week": 12,
+    "severity": "alert",
+    "health_score": 32.0,
+    "briefing": "Maria, your health score has dropped to 32, which places you in the high-risk category. Your HRV is now 18ms - significantly below healthy baseline. We're seeing sustained elevated heart rate (84 bpm average) and frequent stress episodes (9 per week). Research shows caregivers at this level are at 3x higher risk for clinical depression and cardiovascular events.",
+    "micro_interventions": [
+      "URGENT: Please discuss these trends with your primary care physician this week",
+      "Contact your local Area Agency on Aging for emergency respite care options",
+      "Consider joining a caregiver support group",
+      "Set one non-negotiable self-care activity per day"
+    ]
+  },
+  {
+    "caregiver_id": "james_chen",
+    "week": 4,
+    "severity": "info",
+    "health_score": 71.0,
+    "briefing": "James, your health metrics look stable this month. Your average heart rate is 72 bpm and HRV remains healthy at 42ms. Your work-from-home days seem to correlate with lower stress levels.",
+    "micro_interventions": [
+      "Your current routine is working well - maintain it",
+      "Consider adding a brief mindfulness session during your lunch break",
+      "The weekend activity boost is positive - maintain 30+ minutes daily"
+    ]
+  },
+  {
+    "caregiver_id": "james_chen",
+    "week": 8,
+    "severity": "info",
+    "health_score": 68.0,
+    "briefing": "James, your metrics continue to show resilience. We noticed a brief stress spike during week 6 - possibly related to the insurance review period. Your recovery was quick, which is a sign of good stress management.",
+    "micro_interventions": [
+      "Document the insurance process to reduce stress for next renewal",
+      "Your evening walks with your spouse show positive impact",
+      "Consider connecting with other stroke caregiver families"
+    ]
+  },
+  {
+    "caregiver_id": "aisha_williams",
+    "week": 4,
+    "severity": "warning",
+    "health_score": 42.0,
+    "briefing": "Aisha, your stress levels remain elevated with an average stress score of 0.65. As a nurse who also provides round-the-clock care for your son, your body is showing signs of chronic stress accumulation. HRV is at 25ms and you're averaging only 5.5 hours of sleep.",
+    "micro_interventions": [
+      "Look into your state's respite care programs",
+      "Your nursing background means you know the signs - don't ignore your own",
+      "Protect at least one 30-minute block for yourself each day",
+      "Check if your son's school offers extended day programs"
+    ]
+  },
+  {
+    "caregiver_id": "aisha_williams",
+    "week": 8,
+    "severity": "info",
+    "health_score": 62.0,
+    "briefing": "Aisha, we're seeing real improvement since you started respite care services in week 6! Your stress score has dropped from 0.65 to 0.45, and your HRV has increased from 25ms to 33ms. Sleep quality improved to 6.8 hours. The respite hours are making a measurable difference.",
+    "micro_interventions": [
+      "Great progress! Consider gradually increasing respite hours",
+      "Your improved sleep is boosting everything else - protect your bedtime routine",
+      "Start a brief gratitude journal - research shows it amplifies recovery"
+    ]
+  },
+  {
+    "caregiver_id": "aisha_williams",
+    "week": 12,
+    "severity": "positive",
+    "health_score": 72.0,
+    "briefing": "Aisha, your health trajectory is one of the most encouraging we've seen. Since starting respite care, your health score has improved from 42 to 72 - a 71% improvement. HRV is now at 38ms, stress episodes are down to 3 per week, and you're sleeping 7.2 hours.",
+    "micro_interventions": [
+      "Maintain your current respite care schedule",
+      "Consider mentoring other caregivers",
+      "Continue monitoring - sustained improvement takes 6+ months to stabilize"
+    ]
+  },
+  {
+    "caregiver_id": "robert_miller",
+    "week": 4,
+    "severity": "warning",
+    "health_score": 52.0,
+    "briefing": "Robert, as a sole caregiver for your wife, we can see the toll this is taking. Your stress score has risen to 0.58 and your HRV has dropped to 28ms. At 67, these physiological changes are especially important to monitor.",
+    "micro_interventions": [
+      "Reach out to the Parkinson's Foundation helpline: 1-800-4PD-INFO",
+      "Look into adult day programs",
+      "Get your blood pressure checked this week",
+      "Ask family for specific help rather than general offers"
+    ]
+  },
+  {
+    "caregiver_id": "robert_miller",
+    "week": 10,
+    "severity": "alert",
+    "health_score": 25.0,
+    "briefing": "Robert, your health score has dropped to 25 and we are genuinely concerned. HRV is at 14ms - critically low for your age group. You're experiencing 11 stress episodes per week and sleeping only 4.5 hours. Immediate intervention is necessary.",
+    "micro_interventions": [
+      "CRITICAL: Schedule a doctor's appointment within 48 hours",
+      "Call your local Area Agency on Aging TODAY",
+      "Have an honest conversation with family about shared caregiving",
+      "Consider professional in-home care for your wife"
+    ]
+  },
+  {
+    "caregiver_id": "priya_patel",
+    "week": 6,
+    "severity": "info",
+    "health_score": 58.0,
+    "briefing": "Priya, your health metrics show a distinctive work-week pattern. Stress peaks Monday-Wednesday when balancing meetings with caregiving coordination, then improves on weekends.",
+    "micro_interventions": [
+      "Front-load caregiving logistics to Sunday evening planning",
+      "Discuss flexible scheduling with your manager",
+      "Your brother's day program on T/Th is your recovery window - protect it",
+      "Try a brief meditation during your commute"
+    ]
+  },
+  {
+    "caregiver_id": "david_thompson",
+    "week": 6,
+    "severity": "info",
+    "health_score": 61.0,
+    "briefing": "David, your long-distance caregiving creates a unique stress pattern. Elevated stress around weekly Montana visits and healthcare coordination calls. Overall score of 0.42 is moderate, but the chronic nature means cumulative impact.",
+    "micro_interventions": [
+      "Set up shared calendar with parents' healthcare providers",
+      "Consider video monitoring to reduce uncertainty anxiety",
+      "Maintain your exercise routine - it's a protective factor",
+      "Look into geriatric care managers in Montana"
+    ]
+  },
+  {
+    "caregiver_id": "david_thompson",
+    "week": 12,
+    "severity": "warning",
+    "health_score": 55.0,
+    "briefing": "David, the slow creep in your stress markers is becoming more pronounced. Health score dropped from 65 to 55 over 12 weeks. This 'boiling frog' pattern is the most common way caregiver burnout develops.",
+    "micro_interventions": [
+      "Acknowledge this is real: moderate chronic stress compounds",
+      "Investigate PACE programs for your parents",
+      "Plan a 3-day personal retreat to reset your baseline",
+      "Consider therapy focused on caregiver guilt and boundary-setting"
+    ]
+  }
+]

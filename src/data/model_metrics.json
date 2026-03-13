@@ -1,0 +1,310 @@
+{
+  "models": {
+    "all_signals": {
+      "display_name": "All Signals (Chest + Wrist)",
+      "best_algorithm": "LogisticRegression",
+      "accuracy": 0.9037,
+      "f1_score": 0.9042,
+      "roc_auc": 0.953,
+      "n_features": 56,
+      "confusion_matrix": [
+        [
+          680,
+          56
+        ],
+        [
+          45,
+          268
+        ]
+      ],
+      "feature_importance": [
+        {
+          "feature": "hrv_mean_rr",
+          "importance": 1.6266
+        },
+        {
+          "feature": "resp_rate_std",
+          "importance": 1.5449
+        },
+        {
+          "feature": "resp_rate",
+          "importance": 1.4571
+        },
+        {
+          "feature": "wrist_acc_x_std",
+          "importance": 1.4176
+        },
+        {
+          "feature": "hrv_mean_hr",
+          "importance": 1.32
+        },
+        {
+          "feature": "chest_acc_y_std",
+          "importance": 1.1914
+        },
+        {
+          "feature": "chest_acc_mag_std",
+          "importance": 1.1913
+        },
+        {
+          "feature": "chest_eda_std",
+          "importance": 1.1533
+        },
+        {
+          "feature": "wrist_acc_mag_std",
+          "importance": 1.1315
+        },
+        {
+          "feature": "hrv_lf_hf_ratio",
+          "importance": 1.1191
+        },
+        {
+          "feature": "resp_mean",
+          "importance": 1.0053
+        },
+        {
+          "feature": "wrist_eda_kurtosis",
+          "importance": 0.9959
+        },
+        {
+          "feature": "wrist_temp_delta",
+          "importance": 0.9717
+        },
+        {
+          "feature": "wrist_acc_y_std",
+          "importance": 0.9443
+        },
+        {
+          "feature": "chest_eda_range",
+          "importance": 0.9187
+        }
+      ],
+      "description": "Uses all available chest and wrist sensor data for maximum accuracy.",
+      "three_class": {
+        "accuracy": 0.7865,
+        "f1_score": 0.7892,
+        "confusion_matrix": [
+          [
+            464,
+            34,
+            72
+          ],
+          [
+            23,
+            269,
+            21
+          ],
+          [
+            56,
+            18,
+            92
+          ]
+        ]
+      }
+    },
+    "wrist_only": {
+      "display_name": "Wrist Only (Consumer Wearable)",
+      "best_algorithm": "XGBoost",
+      "accuracy": 0.9209,
+      "f1_score": 0.9203,
+      "roc_auc": 0.9559,
+      "n_features": 23,
+      "confusion_matrix": [
+        [
+          702,
+          34
+        ],
+        [
+          49,
+          264
+        ]
+      ],
+      "feature_importance": [
+        {
+          "feature": "wrist_eda_range",
+          "importance": 0.4564
+        },
+        {
+          "feature": "wrist_acc_mag_mean",
+          "importance": 0.0667
+        },
+        {
+          "feature": "wrist_eda_max",
+          "importance": 0.06
+        },
+        {
+          "feature": "bvp_prv_rmssd",
+          "importance": 0.0592
+        },
+        {
+          "feature": "wrist_temp_mean",
+          "importance": 0.0477
+        },
+        {
+          "feature": "bvp_pulse_rate",
+          "importance": 0.0399
+        },
+        {
+          "feature": "wrist_eda_min",
+          "importance": 0.0333
+        },
+        {
+          "feature": "wrist_acc_mag_std",
+          "importance": 0.0321
+        },
+        {
+          "feature": "wrist_temp_delta",
+          "importance": 0.0236
+        },
+        {
+          "feature": "wrist_acc_mag_range",
+          "importance": 0.0222
+        },
+        {
+          "feature": "wrist_acc_x_std",
+          "importance": 0.0201
+        },
+        {
+          "feature": "bvp_prv_sdnn",
+          "importance": 0.0168
+        },
+        {
+          "feature": "bvp_mean_amp",
+          "importance": 0.0147
+        },
+        {
+          "feature": "wrist_eda_slope",
+          "importance": 0.0138
+        },
+        {
+          "feature": "wrist_eda_kurtosis",
+          "importance": 0.0138
+        }
+      ],
+      "description": "Uses only wrist-worn sensor data. Compatible with Apple Watch.",
+      "three_class": {
+        "accuracy": 0.7941,
+        "f1_score": 0.7858,
+        "confusion_matrix": [
+          [
+            511,
+            24,
+            35
+          ],
+          [
+            29,
+            258,
+            26
+          ],
+          [
+            76,
+            26,
+            64
+          ]
+        ]
+      }
+    },
+    "chest_only": {
+      "display_name": "Chest Only (Clinical Grade)",
+      "best_algorithm": "LogisticRegression",
+      "accuracy": 0.9161,
+      "f1_score": 0.9155,
+      "roc_auc": 0.9518,
+      "n_features": 33,
+      "confusion_matrix": [
+        [
+          700,
+          36
+        ],
+        [
+          52,
+          261
+        ]
+      ],
+      "feature_importance": [
+        {
+          "feature": "chest_acc_mag_std",
+          "importance": 2.0628
+        },
+        {
+          "feature": "hrv_mean_rr",
+          "importance": 2.0358
+        },
+        {
+          "feature": "chest_acc_y_std",
+          "importance": 1.8158
+        },
+        {
+          "feature": "resp_rate_std",
+          "importance": 1.7337
+        },
+        {
+          "feature": "resp_rate",
+          "importance": 1.6565
+        },
+        {
+          "feature": "resp_mean",
+          "importance": 1.5052
+        },
+        {
+          "feature": "chest_eda_range",
+          "importance": 1.285
+        },
+        {
+          "feature": "hrv_mean_hr",
+          "importance": 1.1096
+        },
+        {
+          "feature": "hrv_lf_hf_ratio",
+          "importance": 1.0807
+        },
+        {
+          "feature": "chest_eda_std",
+          "importance": 1.0542
+        },
+        {
+          "feature": "chest_acc_x_std",
+          "importance": 0.9017
+        },
+        {
+          "feature": "chest_eda_slope",
+          "importance": 0.6552
+        },
+        {
+          "feature": "hrv_hf_power",
+          "importance": 0.6361
+        },
+        {
+          "feature": "hrv_sdnn",
+          "importance": 0.5865
+        },
+        {
+          "feature": "hrv_rmssd",
+          "importance": 0.5361
+        }
+      ],
+      "description": "Uses chest-mounted sensor data. Clinical-grade accuracy.",
+      "three_class": {
+        "accuracy": 0.7722,
+        "f1_score": 0.7823,
+        "confusion_matrix": [
+          [
+            453,
+            30,
+            87
+          ],
+          [
+            16,
+            254,
+            43
+          ],
+          [
+            45,
+            18,
+            103
+          ]
+        ]
+      }
+    }
+  }
+}
