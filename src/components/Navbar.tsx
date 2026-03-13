@@ -26,10 +26,10 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 border-b bg-card/80 backdrop-blur-md no-print">
       <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center gap-2">
-          <Activity className="h-6 w-6 text-coral" />
+        <Link to="/" className="flex items-center gap-2.5">
+          <img src={logo} alt="Burden Care Insight logo" className="h-8 w-8 rounded-md object-contain" />
           <span className="text-lg font-bold tracking-tight text-foreground">
-            The Invisible Burden Tracker
+            Burden Care Insight
           </span>
         </Link>
 
