@@ -46,14 +46,17 @@ export default function Landing() {
       {/* Hero */}
       <section className="bg-gradient-hero text-primary-foreground py-24 md:py-32">
         <div className="container text-center">
-          <motion.h1
-            className="text-4xl md:text-6xl font-bold tracking-tight mb-6"
+          <motion.div
+            className="flex items-center justify-center gap-4 mb-6"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            The Invisible Burden Tracker
-          </motion.h1>
+            <img src={logo} alt="Burden Care Insight logo" className="h-14 w-14 md:h-20 md:w-20 rounded-xl object-contain bg-primary-foreground/10 p-1" />
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+              Burden Care Insight
+            </h1>
+          </motion.div>
           <motion.p
             className="text-lg md:text-xl max-w-3xl mx-auto mb-12 text-primary-foreground/80"
             initial={{ opacity: 0, y: 20 }}

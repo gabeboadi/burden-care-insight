@@ -60,8 +60,8 @@ export default function Navbar() {
           </SheetTrigger>
           <SheetContent side="right" className="w-64">
             <SheetHeader>
-              <SheetTitle className="flex items-center gap-2">
-                <Activity className="h-5 w-5 text-coral" />
+            <SheetTitle className="flex items-center gap-2">
+                <img src={logo} alt="Burden Care Insight logo" className="h-6 w-6 rounded-md object-contain" />
                 Navigation
               </SheetTitle>
             </SheetHeader>
