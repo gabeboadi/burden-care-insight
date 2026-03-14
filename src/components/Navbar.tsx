@@ -61,7 +61,7 @@ export default function Navbar() {
           <SheetContent side="right" className="w-64">
             <SheetHeader>
             <SheetTitle className="flex items-center gap-2">
-                <img src={logo} alt="Burden Care Insight logo" className="h-6 w-6 rounded-md object-contain" />
+                <img src={logo} alt="SecondShift logo" className="h-6 w-6 rounded-md object-contain" />
                 Navigation
               </SheetTitle>
             </SheetHeader>

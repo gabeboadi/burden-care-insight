@@ -52,9 +52,9 @@ export default function Landing() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <img src={logo} alt="Burden Care Insight logo" className="h-14 w-14 md:h-20 md:w-20 rounded-xl object-contain bg-primary-foreground/10 p-1" />
+            <img src={logo} alt="SecondShift logo" className="h-14 w-14 md:h-20 md:w-20 rounded-xl object-contain bg-primary-foreground/10 p-1" />
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-              Burden Care Insight
+              SecondShift
             </h1>
           </motion.div>
           <motion.p
